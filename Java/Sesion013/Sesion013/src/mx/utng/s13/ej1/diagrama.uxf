@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>380</x><y>60</y><w>240</w><h>90</h></coordinates><panel_attributes>Persona
+--
+-nombre:String
+-apellido:String
+--
+&lt;&lt;Constructor&gt;&gt; +Persona(String, String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>260</y><w>270</w><h>90</h></coordinates><panel_attributes>Profesor
+--
+-IdProfesor:String
+--
+&lt;&lt;Constructor&gt;&gt; +Profesor(String, String, String)
++Overraid+mostrarDatos():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>140</y><w>130</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es una</panel_attributes><additional_attributes>80;10;80;90;30;90;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>410</y><w>390</w><h>90</h></coordinates><panel_attributes>ProfesorInterino
+--
+-fechaTerminacion:localDate
+--
+&lt;&lt;Constructor&gt;&gt; +ProfesorInterino(String, String, String, LocalDate)
++Overraid+mostrarDatos():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>340</y><w>60</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-
+es un</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>330</y><w>100</w><h>30</h></coordinates><panel_attributes>Polimorfismo
+--
+_+main(String[]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
